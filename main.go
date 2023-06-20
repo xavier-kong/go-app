@@ -18,12 +18,13 @@ import (
 // embedding app.Compo into a struct.
 type hello struct {
 	app.Compo
+	Name string
 }
 
 // The Render method is where the component appearance is defined. Here, a
 // "Hello World!" is displayed as a heading.
 func (h *hello) Render() app.UI {
-	return app.H1().Text("Hello World")
+	return app.H1().Text("Hello, " + h.Name)
 }
 
 // The main function is the entry point where the app is configured and started.

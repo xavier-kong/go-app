@@ -1,3 +1,4 @@
 https://github.com/cosmtrek/air
 https://go-app.dev/getting-started
+    - https://go-app.dev/declarative-syntax
 https://stackoverflow.com/questions/69768611/freeing-a-port-before-running-a-server-instant
